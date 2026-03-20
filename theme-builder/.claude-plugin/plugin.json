@@ -1,0 +1,9 @@
+{
+  "name": "theme-builder",
+  "version": "1.0.0",
+  "description": "Build production-ready UI themes from design screenshots with precise typography sourcing (Adobe Typekit, Google Fonts, self-hosted, system).",
+  "author": { "name": "Justin G", "url": "http://forthbridge.ai/" },
+  "keywords": ["theme", "design-system", "typography", "screenshots", "evaluation"],
+  "homepage": "https://github.com/jgrava/design-skillset",
+  "license": "MIT"
+}

@@ -2,7 +2,7 @@
     "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
     "name": "design-skillset",
     "version": "1.0.0",
-    "description": "Design Skillset: structured AI workflows for better design decisions. Domain-specific skills and chained workflows across 8 design plugins — from research to systems, UI, interaction, and delivery.",
+    "description": "Design Skillset: structured AI workflows for better design decisions. Domain-specific skills and chained workflows across 9 design plugins — from research to systems, UI, interaction, and delivery.",
     "owner": {
           "name": "Forth–Bridge",
           "url": "http://forthbridge.ai/"
@@ -55,6 +55,12 @@
                   "name": "designer-toolkit",
                   "description": "Designer utility skills: portfolio review, resume building, case study structure, design presentations, stakeholder communication, and design briefs.",
                   "source": "./designer-toolkit",
+                  "category": "design"
+          },
+          {
+                  "name": "theme-builder",
+                  "description": "Build production-ready UI themes from design screenshots with precise typography sourcing (Adobe Typekit, Google Fonts, self-hosted, system).",
+                  "source": "./theme-builder",
                   "category": "design"
           }
     ]
