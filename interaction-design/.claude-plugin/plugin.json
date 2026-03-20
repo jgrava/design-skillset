@@ -1,0 +1,9 @@
+{
+  "name": "interaction-design",
+  "version": "1.0.0",
+  "description": "Design meaningful interactions with micro-animations, state machines, gestures, error handling, and feedback patterns.",
+  "author": { "name": "Justin G", "url": "http://forthbridge.ai/" },
+  "keywords": ["interaction-design", "animation", "micro-interactions", "gestures", "state-machines"],
+  "homepage": "https://github.com/jgrava/design-skillset",
+  "license": "MIT"
+}

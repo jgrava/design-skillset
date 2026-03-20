@@ -1,0 +1,9 @@
+{
+  "name": "prototyping-testing",
+  "version": "1.0.0",
+  "description": "Plan and execute design validation through prototyping strategies, usability testing, heuristic evaluation, and A/B experiments.",
+  "author": { "name": "Justin G", "url": "http://forthbridge.ai/" },
+  "keywords": ["prototyping", "usability-testing", "heuristic-evaluation", "a-b-testing", "wireframes"],
+  "homepage": "https://github.com/jgrava/design-skillset",
+  "license": "MIT"
+}

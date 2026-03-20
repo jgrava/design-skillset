@@ -1,0 +1,9 @@
+{
+  "name": "ui-design",
+  "version": "1.0.0",
+  "description": "Craft polished user interfaces with layout grids, color systems, typography scales, responsive patterns, and visual hierarchy.",
+  "author": { "name": "Justin G", "url": "http://forthbridge.ai/" },
+  "keywords": ["ui-design", "layout", "color", "typography", "responsive", "visual-hierarchy"],
+  "homepage": "https://github.com/jgrava/design-skillset",
+  "license": "MIT"
+}

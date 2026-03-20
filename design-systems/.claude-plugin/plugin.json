@@ -1,0 +1,9 @@
+{
+  "name": "design-systems",
+  "version": "1.0.0",
+  "description": "Build, document, and maintain scalable design systems — from tokens and components to accessibility and theming.",
+  "author": { "name": "Justin G", "url": "http://forthbridge.ai/" },
+  "keywords": ["design-systems", "tokens", "components", "accessibility", "theming"],
+  "homepage": "https://github.com/jgrava/design-skillset",
+  "license": "MIT"
+}
