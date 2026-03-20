@@ -4,14 +4,13 @@ Clear design frameworks, decision criteria, and knowledge.
 
 ## Overview
 
-This repository contains 9 agentic plug-ins that provide design skills, commands, and frameworks for working with Claude. Each plug-in focuses on a specific aspect of the design process.
+This repository contains 8 agentic plug-ins that provide design skills, commands, and frameworks for working with Claude. Each plug-in focuses on a specific aspect of the design process.
 
 ## Agentic Plug-ins Inventory
 
 | Plugin | Description | Skills | Commands |
 |--------|-------------|--------|----------|
 | **UI Design** | Craft polished user interfaces with layout grids, color systems, typography scales, responsive patterns, and visual hierarchy. | • color-system<br>• dark-mode-design<br>• data-visualization<br>• illustration-style<br>• layout-grid<br>• responsive-design<br>• spacing-system<br>• typography-scale<br>• visual-hierarchy | `/color-palette`<br>`/design-screen`<br>`/responsive-audit`<br>`/type-system` |
-| **Design Ops** | Streamline design operations with critique frameworks, handoff specs, sprint planning, review processes, and team workflows. | • design-critique<br>• design-qa-checklist<br>• design-review-process<br>• design-sprint-plan<br>• handoff-spec<br>• team-workflow<br>• version-control-strategy | `/handoff`<br>`/plan-sprint`<br>`/setup-workflow` |
 | **Design Research** | User research skills for designers: personas, empathy maps, journey maps, interview scripts, usability testing, and card sorting. | • affinity-diagram<br>• card-sort-analysis<br>• diary-study-plan<br>• empathy-map<br>• interview-script<br>• jobs-to-be-done<br>• journey-map<br>• summarize-interview<br>• usability-test-plan<br>• user-persona | `/discover`<br>`/interview`<br>`/synthesize`<br>`/test-plan` |
 | **UX Strategy** | Shape product direction through competitive analysis, design principles, experience mapping, and strategic alignment. | • competitive-analysis<br>• design-brief<br>• design-principles<br>• experience-map<br>• metrics-definition<br>• north-star-vision<br>• opportunity-framework<br>• stakeholder-alignment | `/benchmark`<br>`/frame-problem`<br>`/strategize` |
 | **Designer Toolkit** | Essential designer utilities for writing rationale, building presentations, crafting case studies, UX writing, and driving adoption. | • case-study<br>• design-rationale<br>• design-system-adoption<br>• design-token-audit<br>• presentation-deck<br>• ux-writing | `/build-presentation`<br>`/write-case-study`<br>`/write-rationale` |
