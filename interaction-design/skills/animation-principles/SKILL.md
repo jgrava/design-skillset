@@ -34,6 +34,38 @@ You apply animation principles to make interfaces feel natural, guide attention,
 - Lead with the most important element
 - Limit total sequence duration to under 700ms
 - Use consistent direction for related movements
+## Interaction Duration Threshold
+For interactions that should feel immediate (button presses, toggles, hover feedback), animation duration should not exceed 200ms. The 250-400ms range is for transitions between distinct views (modals, page changes) where the user expects a spatial shift, not for micro-interactions.
+
+## Proportional Scale Values
+Animation scale values should be proportional to the trigger size — the goal is subtle reinforcement, not theatrical emphasis:
+- **Dialogs**: Don't scale from 0 → 1. Instead, fade opacity and scale from ~0.8 → 1.
+- **Buttons on press**: Don't scale from 1 → 0.8. Use ~0.96 or ~0.9.
+- **Tooltips and popovers**: Fade and translate a small amount (4-8px), not slide across the screen.
+
+## Reduce Animation for Frequent Actions
+Actions that are frequent and low in novelty should avoid extraneous animations because they become irritating with repetition:
+- Opening a right-click or context menu
+- Adding or deleting items from a list
+- Hovering trivial buttons
+
+Reserve expressive animation for moments of delight or major state transitions.
+
+## Theme Switching
+Switching between light and dark themes should not trigger transitions and animations on elements. Disable transitions globally during the theme change (e.g., add a `no-transition` class to the root, swap the theme, then remove the class after a frame).
+
+## Offscreen Behavior
+Looping animations (spinners, background effects, decorative motion) should pause when not visible on the screen. This offloads CPU and GPU usage and prevents battery drain on mobile. Use `IntersectionObserver` to detect visibility.
+
+## Smooth Scrolling
+Use `scroll-behavior: smooth` for navigating to in-page anchors, with an appropriate `scroll-margin-top` or `scroll-padding-top` offset to account for fixed headers.
+
+## Performance
+- Toggle `will-change` on unperformant scroll animations only for the duration of the animation — setting it permanently consumes memory
+- Use `transform: translateZ(0)` sparingly to promote elements to their own GPU layer
+- Large `blur()` values on `filter` and `backdrop-filter` can be slow; test on target devices
+- Scaling and blurring filled rectangles causes banding — use radial gradients instead
+
 ## Best Practices
 - Support prefers-reduced-motion
 - Don't animate for the sake of it

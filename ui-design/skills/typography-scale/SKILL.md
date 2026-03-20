@@ -35,6 +35,24 @@ Regular (400), Medium (500), Semibold (600), Bold (700).
 - Scale down heading sizes on mobile
 - Maintain body size (16px minimum for readability)
 - Adjust line lengths (45-75 characters optimal)
+- Use CSS `clamp()` for fluid sizing, e.g. `clamp(48px, 5vw, 72px)` for display headings — this scales smoothly between breakpoints without media queries
+## Rendering & Implementation
+These CSS properties should be applied globally to ensure consistent, high-quality text rendering:
+- `-webkit-font-smoothing: antialiased` — improves legibility on macOS/iOS by using grayscale antialiasing
+- `text-rendering: optimizeLegibility` — enables kerning and ligatures for better typographic quality
+- `-webkit-text-size-adjust: 100%` — prevents unexpected text resizing in landscape mode on iOS
+
+### Weight Guidelines
+- Never use font weights below 400 — they are difficult to read, especially on lower-resolution displays
+- Medium-sized headings generally look best at weight 500-600
+- Font weight should not change on hover or selected state, as this causes layout shift and makes text appear to "jump"
+
+### Numeric & Tabular Content
+- Apply `font-variant-numeric: tabular-nums` to tables, timers, counters, and any content where numbers change dynamically — this prevents layout shift by making all digits the same width
+
+### Font Loading
+- Fonts should be subset based on the content, alphabet, or relevant languages to reduce file size and improve load performance
+
 ## Best Practices
 - Use a mathematical ratio for harmony
 - Limit to 4-5 sizes in regular use

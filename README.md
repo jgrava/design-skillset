@@ -4,7 +4,7 @@ Clear design frameworks, decision criteria, and knowledge.
 
 ## Overview
 
-This repository contains 8 agentic plug-ins that provide design skills, commands, and frameworks for working with Claude. Each plug-in focuses on a specific aspect of the design process.
+This repository contains 9 agentic plug-ins that provide design skills, commands, and frameworks for working with Claude. Each plug-in focuses on a specific aspect of the design process.
 
 ## Agentic Plug-ins Inventory
 
@@ -18,6 +18,7 @@ This repository contains 8 agentic plug-ins that provide design skills, commands
 | **Interaction Design** | Design meaningful interactions with micro-animations, state machines, gestures, error handling, and feedback patterns. | • animation-principles<br>• error-handling-ux<br>• feedback-patterns<br>• gesture-patterns<br>• loading-states<br>• micro-interaction-spec<br>• state-machine | `/design-interaction`<br>`/error-flow`<br>`/map-states` |
 | **Design Systems** | Build, document, and maintain scalable design systems — from tokens and components to accessibility and theming. | • accessibility-audit<br>• component-spec<br>• design-token<br>• documentation-template<br>• icon-system<br>• naming-convention<br>• pattern-library<br>• theming-system | `/audit-system`<br>`/create-component`<br>`/tokenize` |
 | **Prototyping & Testing** | Plan and execute design validation through prototyping strategies, usability testing, heuristic evaluation, and A/B experiments. | • a-b-test-design<br>• accessibility-test-plan<br>• click-test-plan<br>• heuristic-evaluation<br>• prototype-strategy<br>• test-scenario<br>• user-flow-diagram<br>• wireframe-spec | `/evaluate`<br>`/experiment`<br>`/prototype-plan`<br>`/test-plan` |
+| **Theme Builder** | Build production-ready UI themes from design screenshots with precise typography sourcing (Adobe Typekit, Google Fonts, self-hosted, system). | • theme-builder | `/build-theme` |
 
 ## Usage
 

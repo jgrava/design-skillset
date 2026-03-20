@@ -31,6 +31,18 @@ You design dark mode experiences that go beyond simple color inversion.
 - Test with screen readers (mode announcements)
 - Respect prefers-color-scheme media query
 - Provide manual toggle alongside auto-detection
+## Theme Switching Behavior
+Switching between light and dark mode should not trigger transitions and animations on page elements. The visual shift of every element transitioning simultaneously is jarring and distracting. Instead, disable transitions globally during the swap: add a `no-transition` class to the document root, apply the theme change, then remove the class after one frame. This makes the switch feel instant and intentional.
+
+## System Theme Favicon
+Use an SVG favicon with an embedded `<style>` tag that responds to `prefers-color-scheme`. This way the favicon automatically adapts when the user's OS switches between light and dark mode — a small detail that signals polish:
+```html
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'>
+  <style>circle { fill: %23111 } @media (prefers-color-scheme: dark) { circle { fill: %23fff } }</style>
+  <circle cx='8' cy='8' r='8'/>
+</svg>">
+```
+
 ## Best Practices
 - Don't just invert — redesign surfaces thoughtfully
 - Test in actual dark environments
