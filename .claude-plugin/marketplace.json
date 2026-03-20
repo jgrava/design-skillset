@@ -2,7 +2,7 @@
     "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
     "name": "design-skillset",
     "version": "1.0.0",
-    "description": "Design Skillset: structured AI workflows for better design decisions. Domain-specific skills and chained workflows across 9 design plugins — from research to systems, UI, interaction, and delivery.",
+    "description": "Design Skillset: structured AI workflows for better design decisions. Domain-specific skills and chained workflows across 8 design plugins — from research to systems, UI, interaction, and delivery.",
     "owner": {
           "name": "Forth–Bridge",
           "url": "http://forthbridge.ai/"
@@ -43,12 +43,6 @@
                   "name": "prototyping-testing",
                   "description": "Prototyping and testing skills: wireframe specs, usability heuristics, heuristic evaluations, accessibility audits, A/B test design, and benchmark analysis.",
                   "source": "./prototyping-testing",
-                  "category": "design"
-          },
-          {
-                  "name": "design-ops",
-                  "description": "Design operations skills: handoff specs, design critique facilitation, design sprint planning, asset management, and design debt audits.",
-                  "source": "./design-ops",
                   "category": "design"
           },
           {
